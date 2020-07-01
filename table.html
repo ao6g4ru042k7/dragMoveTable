@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <script src="drogMoveTable.min.js"></script>
+    <style>
+        .table-wrapper {
+            margin: 50px auto;
+            width: 1000px;
+            height: 600px;
+        }
+
+        table {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        th {
+            background-color: salmon;
+            padding: 100px 250px;
+        }
+
+        td {
+            background-color: darkgoldenrod;
+            padding: 100px 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="table-container">
+        <div class="table-wrapper">
+            <table>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script>
+        new TableDrag('.table-container').init();
+    </script>
+</body>
+
+</html>
